@@ -22,14 +22,14 @@ export interface ForecastResult {
 
 
 export async function fetchCurrentWeather() {
-    const res = await fetch("/api/now");
+    const res = await fetch("https://gbg-weather-app.herokuapp.com/api/now");
     const data : WeatherResult = await res.json();
     
     return data;
 }
 
 export async function fetchForecastWeather() {
-    const res = await fetch("/api/forecast");
+    const res = await fetch("https://gbg-weather-app.herokuapp.com/api/forecast");
     const data : ForecastResult[] = await res.json();
     
     return data;

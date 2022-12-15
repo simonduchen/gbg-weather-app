@@ -7,6 +7,12 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server/dist/server.js"
   },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "node-fetch": "^2.6.7"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/simonduchen/gbg-weather-app.git"

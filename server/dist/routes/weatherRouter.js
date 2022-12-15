@@ -96,3 +96,4 @@ exports.router.get("/forecast", (req, res) => __awaiter(void 0, void 0, void 0, 
         res.send({ msg: "Something went in the API call on the server side." });
     }
 }));
+//# sourceMappingURL=weatherRouter.js.map

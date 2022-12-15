@@ -1,0 +1,68 @@
+/* TODO */
+.app {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: var(--bg);    
+}
+
+.app-container {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--bg);
+}
+
+.title {
+    font-family: "Chester";
+    font-size: 38px;
+    padding: 32px;
+    font-weight: bold;
+    color: var(--text-title);
+}
+
+.sub-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: var(--text-title);
+}
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.forecast-container {
+    margin-top: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.forecast-tiles {
+    display: flex;
+    column-gap: 8px;
+    margin-top: 16px;
+}
+
+@media only screen and (max-width: 1080px) {
+    .forecast-tiles {
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        row-gap: 8px;
+    }
+
+    .forecast-tiles > div {
+        flex: 0 30%
+    }
+}
+
+@media only screen and (max-width: 580px) {
+    .forecast-tiles {
+        flex-direction: column;
+        row-gap: 8px;
+    }
+}

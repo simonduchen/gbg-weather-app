@@ -1,0 +1,68 @@
+.tile-container {
+    width: 200px;
+    flex-direction: column;
+    row-gap: 4px;
+    background-color: var(--primary);
+    color: var(--text);
+    padding: 32px;
+    border-radius: 16px;
+}
+
+.flex-row {
+    display: flex;
+    column-gap: 8px;
+}
+
+.flex-row-reversed {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.flex-col-left {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-col-right {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.temp {
+    font-size: 38px;
+    display: flex;
+    align-items: center;
+}
+
+.icon-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.temp .icon-container img {
+    height: 48px;
+    width: 48px;
+}
+
+.temp .celcius-sign {
+    opacity: 0.6;
+}
+
+.additional-temps {
+    margin-top: 8px;
+}
+
+.additional-temps .fill {
+    flex: 1;
+}
+
+.secondary-text {
+    opacity: 0.6;
+    color: var(--text);
+}
+
+.bold-text {
+    font-weight: 700;
+}
+

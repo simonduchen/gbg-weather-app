@@ -1,0 +1,34 @@
+@font-face {
+  font-family: "Chester";  
+  src: local("Chester"),
+    url("./fonts/Chester.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Garbera";  
+  src: local("GarberaLight"),
+    url("./fonts/Gerbera-Light.otf") format("truetype");
+}
+
+body {
+  margin: 0;
+  font-family: "Garbera", 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+:root {
+  --bg: #EBF5EE;
+  --primary: #78A1BB;
+  --text-title: #283044;
+  --text: black;
+}
+
+/* https://coolors.co/283044-78a1bb-ebf5ee-bfa89e-8b786d */
